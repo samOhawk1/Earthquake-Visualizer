@@ -39,18 +39,16 @@
 
   <h3>Installation & Setup</h3>
   <pre><code>
-# Clone the repository
+- Clone the repository
 git clone https://github.com/your-username/earthquake-visualizer.git
-
-# Navigate into the project directory
+- Navigate into the project directory
 cd earthquake-visualizer
-
-# Install dependencies
+- Install dependencies
 npm install
-
-# Start the application
+- Start the application
 npm start
-  </code></pre>
+  </code>
+</pre>
 
   <p>The app will open at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
