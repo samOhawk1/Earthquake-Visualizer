@@ -1,3 +1,4 @@
+/* --- Base & Mobile-First Styles --- */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,100 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #D3DAD9;
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app-container {
+  padding: 1rem; /* Default mobile padding */
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  font-family:'Times New Roman', Times, serif;
+}
+.header h6 {
+  font-family: monospace;
+  font-size: large;
+  font-family:monospace;
+}
+.header h1 {
+  font-size: 2rem; /* Mobile font size */
+  margin: 0;
+  color: #1a237e;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Default to single-column on mobile */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.chart-container {
+  background-color: #ffffff;
+  padding: 1rem; /* Mobile padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Slightly softer shadow */
+  border: 1px solid #e0e0e0;
+  margin-top: 1rem;
+  width: 95%;
+  aspect-ratio: 16 / 12; /* A good ratio for charts, adjust as needed */
+  max-height: 450px; /* Prevents it from getting too tall on desktop */
+}
+
+/* --- Tablet & Desktop Styles --- */
+@media (min-width: 768px) {
+  .app-container {
+    padding: 1.5rem 2rem; /* Wider padding for desktop */
+  }
+
+  .header h1 {
+    font-size: 2rem; /* Larger title for desktop */
+  }
+
+  /* Switch to two columns on desktop */
+  .main-content {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .chart-container {
+    padding: 1.5rem; /* More padding on desktop */
+  
+  }
+}
+.map-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.map-container {
+  width: 95%;
+  height: 600px;
+  border-radius: 8px;
+  overflow: hidden; /* ensures rounded corners clip map */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+  .map-container {
+    width: 100%;
+    height: 350px; /* smaller map height for mobile */
+    border-radius: 6px;
+  }
 }
