@@ -9,7 +9,7 @@
   </p>
 
   <p>
-    🔗 <a href="[https://codesandbox.io/p/github/samOhawk1/Earthquake-Visualizer/main](https://earthquake-visualizer-dusky.vercel.app/)">Live Demo Link Here</a> <!-- Replace with your CodeSandbox or deployed link -->
+    🔗 <a href="https://codesandbox.io/p/github/samOhawk1/Earthquake-Visualizer/main](https://earthquake-visualizer-dusky.vercel.app/">Live Demo Link Here</a> <!-- Replace with your CodeSandbox or deployed link -->
   </p>
 
   <h2>✨ Key Features</h2>
