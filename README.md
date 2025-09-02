@@ -9,10 +9,7 @@
   </p>
 
   <p>
-    🔗 <a href="https://codesandbox.io/p/github/samOhawk1/Earthquake-Visualizer/main">Live Demo Link Here</a> <!-- Replace with your CodeSandbox or deployed link -->
-  </p>
-  <p>
-   🔗 <a href="https://chatgpt.com/share/68b5e8be-230c-8011-a945-746db76ae689">The link to chatGPT conversation </a>
+    🔗 <a href="[https://codesandbox.io/p/github/samOhawk1/Earthquake-Visualizer/main](https://earthquake-visualizer-dusky.vercel.app/)">Live Demo Link Here</a> <!-- Replace with your CodeSandbox or deployed link -->
   </p>
 
   <h2>✨ Key Features</h2>
